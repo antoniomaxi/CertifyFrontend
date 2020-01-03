@@ -1,0 +1,103 @@
+
+.nav-menu {
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.nav-menu.is-scrolling,
+.nav-menu.menu-is-open {
+    background-color: black;
+    background: -moz-linear-gradient(135deg, rgb(0, 155, 255) 0%, rgb(0,155, 255) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(0,155, 255) 0%, rgb(0,155, 255) 100%);
+    background: linear-gradient(135deg, rgb(0,155, 255) 0%, rgb(0,155, 255) 100%);
+    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+}
+
+.certify {
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.nav-menu.is-scrolling {
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        font-size: 14px;
+    }
+    .navbar-nav>.nav-item>.nav-link.active:after {
+        content: "";
+        border-bottom: 2px solid white;
+        left: 1rem;
+        right: 1rem;
+        bottom: 5px;
+        height: 1px;
+        position: absolute;
+    }
+}
+
+@media (max-width:991px) {
+    .navbar-nav.is-scrolling {
+        padding-bottom: 1rem;
+    }
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+}
+
+.bg-certify {
+    /* The image used */
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/certify-tesis.appspot.com/o/header.png?alt=media&token=77a5d69e-dffa-403c-9288-eac2f41e32be);
+  
+    /* Full height */
+    height: 100vh; 
+    width:100vw;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  p {
+    color: #959094;
+}
+
+p.lead {
+    color: #4ba2ff;
+    margin-bottom: 2rem;
+}
+  
+.certi{
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -1px;
+   margin-top:20%;
+   margin-left:40%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 20%;
+}
+
+  
+
+.header1cert{
+    text-align:center;
+    margin:0;
+    padding:0;
+  }
+
